@@ -1,0 +1,3 @@
+[submodule "go-module-demo"]
+	path = go-module-demo
+	url = git@github.com:bmaximuml/go-module-demo.git

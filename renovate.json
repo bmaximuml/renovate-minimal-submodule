@@ -9,8 +9,8 @@
   "cloneSubmodules": true,
   "hostRules": [
     {
-      "token": "{{ secrets.GITHUB_COM_TOKEN }}",
-      "hostType": "git-refs"
+      "matchHost": "github.com",
+      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
     },
     {
       "matchHost": "europe-docker.pkg.dev",

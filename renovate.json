@@ -9,6 +9,11 @@
   "cloneSubmodules": true,
   "hostRules": [
     {
+      "hostType": "github",
+      "matchHost": "api.github.com",
+      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
+    },
+    {
       "matchHost": "github.com",
       "token": "{{ secrets.GITHUB_COM_TOKEN }}"
     },

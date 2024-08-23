@@ -1,22 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:best-practices"],
-  "git-submodules": {
-    "enabled": true
-  },
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
-  "cloneSubmodules": true,
   "hostRules": [
-    {
-      "hostType": "github",
-      "matchHost": "api.github.com",
-      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
-    },
-    {
-      "matchHost": "github.com",
-      "token": "{{ secrets.GITHUB_COM_TOKEN }}"
-    },
     {
       "matchHost": "europe-docker.pkg.dev",
       "username": "_json_key_base64",

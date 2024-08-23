@@ -3,6 +3,10 @@
   "extends": ["config:best-practices"],
   "separateMajorMinor": true,
   "separateMultipleMajor": true,
+  "ignorePaths": [
+    "proto-buffet",
+    "go-module-demo"
+  ],
   "hostRules": [
     {
       "matchHost": "europe-docker.pkg.dev",
